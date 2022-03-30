@@ -1,0 +1,28 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+hr {
+  background-color: #d3d4d6;
+  border: none;
+  height: 1px;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+}
+.container {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.content {
+  padding: 2rem 0;
+}
